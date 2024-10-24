@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to bottom right, #ff00ff, #a200ff, #5900ff, #0077ff, #0000ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-area .todo {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.add .button {
+    background-color: rgb(158, 48, 158);
+    height: 53px;
+    width: 50px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.button-icon {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.complete-btn {
+    color: green;
+    margin-left: 400px;
+}
+
+.delete-btn {
+    color: red;
+    margin-left: 10px;
+}
